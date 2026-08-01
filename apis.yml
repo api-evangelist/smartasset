@@ -1,8 +1,30 @@
 aid: smartasset
 name: SmartAsset
-description: SmartAsset is a company surfaced as a portfolio company of a16z, y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  SmartAsset is a financial technology company that runs the largest online
+  marketplace connecting consumers with fiduciary financial advisors. Its
+  SmartAdvisor matching service pairs more than 50,000 retail investors each
+  month with up to three vetted advisors based on geography, investable assets,
+  and preferences, while the SmartAsset Advisor Marketing Platform (AMP)
+  delivers advisors a subscription stream of qualified referrals plus lead
+  automation that syncs into their CRMs (Salesforce, HubSpot, Wealthbox,
+  Redtail, Zoho, Pipedrive, SmartOffice). SmartAsset also publishes a large
+  library of consumer personal-finance calculators and editorial content across
+  taxes, retirement, mortgages, investing, and banking. Backed by a16z and Y
+  Combinator, SmartAsset is a lead-generation and media business and does not
+  currently expose a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d31s10tn3clc14.cloudfront.net/imgs/sa_logo_blue.png
 url: https://raw.githubusercontent.com/api-evangelist/smartasset/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +35,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Financial Advisors
+- Lead Generation
+- Personal Finance
+- Wealth Management
+- Marketplace
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/smartasset-domain-security.yml
+- type: Website
+  url: https://smartasset.com/
+- type: Blog
+  url: https://smartasset.com/blog
+- type: Support
+  url: https://smartasset.com/about#contact
+- type: TermsOfService
+  url: https://smartasset.com/terms
+- type: PrivacyPolicy
+  url: https://smartasset.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

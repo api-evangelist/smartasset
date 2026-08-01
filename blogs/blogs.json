@@ -1,0 +1,14 @@
+{
+  "repo": "smartasset",
+  "feeds": [
+    {
+      "source": "https://smartasset.com/",
+      "feed_url": "https://smartasset.com/blog/feed/",
+      "title": "",
+      "saved": 14,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 33,
+  "fetched": "2026-08-01T15:38:58Z"
+}
