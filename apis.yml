@@ -13,6 +13,17 @@ description: >-
   taxes, retirement, mortgages, investing, and banking. Backed by a16z and Y
   Combinator, SmartAsset is a lead-generation and media business and does not
   currently expose a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
